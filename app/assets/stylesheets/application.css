@@ -1,15 +1,87 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+.container{
+  width: 50%;
+  text-align: left;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: #344D59;
+  text-decoration: underline overline #709CA7;
+  padding: 10px;
+  text-align: center;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+
+i{
+  color: #344D59;
+  transition: 0.3s ease-in;
+}
+
+i:hover{
+  color: #709CA7;
+}
+
+a{
+  text-decoration: none;
+  color: #137C8B;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #344D59;
+}
+
+.btn a{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #344D59;
+  padding: 15px 30px;
+  background-color: #B8CBD0;
+  transition: 0.3s ease-in-out;
+  border-radius: 4px;
+  font-size: 16px;
+
+}
+
+.btn a:hover{
+  background-color: #137C8B;
+}
+
+h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #344D59;
+  font-size: 30px;
+}
+
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #137C8B;
+  font-size: 20px;
+}
+
+.btn-show{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-show > a{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  color:#344D59;
+  padding: 10px 20px;
+  background-color: #b1d5df;
+  text-align: center;
+  border-radius: 2px;
+}
